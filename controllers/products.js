@@ -47,7 +47,7 @@ const getAllProducts = async (req,res) =>{
                 queryObject[field] = {[operator]:Number(value)}
             }
         })
-        console.log(numericFilters)
+        // console.log(numericFilters)
         console.log(filters);
     }
     console.log(queryObject);
